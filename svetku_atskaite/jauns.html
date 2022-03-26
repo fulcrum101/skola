@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gaidot dzimšanas dienu..</title>
+        <style>
+            label {
+                display: block;
+                font: 1rem 'Fira Sans', sans-serif;
+            }
+            input, label {
+                margin: .4rem 0;
+            }
+        </style>
+    </head>
+    <body>
+        <script src="hp_script.js"></script>
+        <h1>Gaidot dzimšanas dienu...</h1>
+        <hr>
+        <form>
+            <label for="date">Ievadi pilnu datumu, kad Tev būs tuvākā dzimšanas diena.</label>
+            <input type="date" id="datums" name="datums" val="2022-04-01">
+            <br>
+            <input type="submit" name="poga" value="Aprēķināt dienu skaitu līdz dzimšanas dienai" onclick="dienas();">
+            <br>
+            <br>
+            <br>
+        </form>
+    </body>
+</html>
