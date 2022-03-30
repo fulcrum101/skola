@@ -1,3 +1,4 @@
+![foto](src/skola.jpg)
 # Rīgas Valsts 1. ģimnāzijas web lapas uzdevums
 
 Papildus tiek izmantots `Spline` programma 3d modeļa ievietošanai caur `<iframe>` tagu.
